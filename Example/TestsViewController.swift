@@ -56,7 +56,7 @@ class TestsViewController: UITableViewController {
             case 8:
                 let alert = AlertController(title: "Title", message: "Message")
                 let contentView = alert.contentView
-                let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+                let spinner = UIActivityIndicatorView(style: .gray)
                 spinner.translatesAutoresizingMaskIntoConstraints = false
                 spinner.startAnimating()
                 contentView.addSubview(spinner)
